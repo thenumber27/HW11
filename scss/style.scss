@@ -111,47 +111,47 @@ body {
      margin-bottom: 35px;
 }
 
-.reg-form {
+.regform {
     position: relative;
     text-align: center;
-}
 
-.textform {
-    position: relative;
-    width: 281px;
-    height: 46px;
-    border-style: none;
-    border-radius: 3px;
-    padding-left: 40px;
-    box-sizing: border-box;
-}
+    &__textform {
+        position: relative;
+        width: 281px;
+        height: 46px;
+        border-style: none;
+        border-radius: 3px;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
 
-.reg-form__icon-user {
-    @include form-icon;
-    left: 67px;
-}
+    &__icon-user {
+        @include form-icon;
+        left: 67px;
+    }
 
-.reg-form__icon-envelope  {
-    @include form-icon;
-    left: 352px;
-}
+    &__icon-envelope  {
+        @include form-icon;
+        left: 352px;
+    }
+    
+    &__icon-phone  {
+        @include form-icon;
+        left: 637px;
+    }
 
-.fa-phone  {
-    @include form-icon;
-    left: 637px;
-}
-
-.buttonform {
-    font-family: "Open Sans";
-    font-size: 14px;
-    color: #ffffff;
-    background-color: #ffbb42;
-    width: 211px;
-    height: 46px;
-    border-style: none;
-    border-radius: 3px;
-    padding: 0;
-    cursor: pointer;
+    &__buttonform {
+        font-family: "Open Sans";
+        font-size: 14px;
+        color: #ffffff;
+        background-color: #ffbb42;
+        width: 211px;
+        height: 46px;
+        border-style: none;
+        border-radius: 3px;
+        padding: 0;
+        cursor: pointer;
+    }
 }
 
 .comp {
@@ -162,19 +162,19 @@ body {
 .slider {
     text-align: center;
     padding: 23px 0 105px 0;
-}
 
-.slider__circle {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: 1px solid #9b9a9a;
-    margin-left: 8px;
-
-    &:hover {
-        border: 2px solid #23abde;
-    }  
+    &__circle {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 1px solid #9b9a9a;
+        margin-left: 8px;
+    
+        &:hover {
+            border: 2px solid #23abde;
+        }  
+    }
 }
 
 .title {
@@ -192,29 +192,28 @@ body {
 
 .ourservice {
     margin-top: 90px;
-}
-
-.ourservice__block {
-    max-width: 49%;
-    display: inline-block;
-
-     p {
-        color: #7b7b7b;
-        font-family: "Open sans";
-        font-size: 13px;
+    
+    &__block {
+        max-width: 49%;
         display: inline-block;
-        margin-left: 94px;
-        margin-top: 0;
+    
+         p {
+            color: #7b7b7b;
+            font-family: "Open sans";
+            font-size: 13px;
+            display: inline-block;
+            margin-left: 94px;
+            margin-top: 0;
+        }
     }
-}
-
-.ourservice__block h3 {
-    display: inline-block;
-    color: #394b50;
-    font-family: "Lato";
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
+    &__block h3 {
+        display: inline-block;
+        color: #394b50;
+        font-family: "Lato";
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+     }
 }
 
 .fa-clock {

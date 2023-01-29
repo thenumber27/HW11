@@ -111,7 +111,7 @@ body {
   position: absolute;
   color: #6e6e6e;
   font-size: 16px;
-  line-height: 47px;
+  top: 15px;
   z-index: 1;
   left: 67px;
 }
@@ -119,7 +119,7 @@ body {
   position: absolute;
   color: #6e6e6e;
   font-size: 16px;
-  line-height: 47px;
+  top: 15px;
   z-index: 1;
   left: 352px;
 }
@@ -127,7 +127,7 @@ body {
   position: absolute;
   color: #6e6e6e;
   font-size: 16px;
-  line-height: 47px;
+  top: 15px;
   z-index: 1;
   left: 637px;
 }
@@ -586,18 +586,20 @@ body {
   position: absolute;
   color: #6e6e6e;
   font-size: 16px;
-  line-height: 47px;
+  top: 15px;
   z-index: 1;
   left: 133px;
+  top: 0;
 }
 
 .footer-icon2 {
   position: absolute;
   color: #6e6e6e;
   font-size: 16px;
-  line-height: 47px;
+  top: 15px;
   z-index: 1;
   left: 27px;
+  top: 0;
 }
 
 .map {
@@ -639,7 +641,7 @@ body {
 }
 
 .menu2 {
-  padding: 65px 0 13px 165px;
+  padding: 65px 0 30px 165px;
 }
 .menu2 a {
   text-decoration: none;
@@ -673,7 +675,7 @@ body {
   color: #709dca;
   font-size: 18px;
   margin-left: 18px;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-bottom: 45px;
 }
 .social a:hover {

@@ -529,8 +529,8 @@ body {
   color: #ffbb42;
 }
 .map__logo {
-  display: block;
   margin: 0 auto;
+  margin-top: 15px;
 }
 .map__adress-triangle {
   position: absolute;
@@ -541,8 +541,8 @@ body {
   border-right: 7px solid transparent;
   border-top: 14px solid #394b50;
   text-align: center;
-  display: block;
-  margin: 0 auto;
+  transform: translate(-50%, 0);
+  bottom: -13px;
 }
 
 .menu2 {

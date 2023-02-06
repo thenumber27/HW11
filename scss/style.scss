@@ -540,8 +540,8 @@ body {
     }
 
     &__logo {
-        display: block;
         margin: 0 auto;
+        margin-top: 15px;
     }
     &__adress-triangle {
         position: absolute;
@@ -552,8 +552,8 @@ body {
         border-right: 7px solid transparent;
         border-top: 14px solid #394b50;
         text-align: center;
-        display: block;
-        margin: 0 auto;
+        transform: translate(-50%, 0);
+        bottom: -13px;
         }
 }
 
@@ -605,6 +605,7 @@ body {
 .footer {
     background-color: #709dca;
 
+
     & p {
         font-family: "open sans";
         font-size: 13px;
@@ -613,4 +614,3 @@ body {
         text-align: center;
     }
 }
-
